@@ -1,0 +1,8 @@
+#!/bin/sh
+
+docker build \
+    -t wow:3.3.5-bot \
+    -f TrinityCore-Bot-3.3.5/Dockerfile \
+    TrinityCore-Bot-3.3.5 \
+    --build-arg \
+        mirror=https://ghproxy.com/

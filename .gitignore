@@ -1,0 +1,7 @@
+app/client_data/Cameras/
+app/client_data/dbc/
+app/client_data/maps/
+app/client_data/vmaps/
+app/db_data/
+app/config/
+app/logs/
